@@ -1,0 +1,51 @@
+.ic {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: currentColor;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    cursor: pointer;
+}
+
+.cancel {
+    mask: url("assert\\icons\\x-lg.svg");
+}
+
+.whatsapp {
+    mask: url("\\assert\\icons\\whatsapp.svg");
+}
+
+.instagram {
+    mask: url("\\assert\\icons\\instagram.svg");
+}
+
+.twitter-x {
+    mask: url("\\assert\\icons\\twitter-x.svg");
+}
+
+.linkedin {
+    mask: url("\\assert\\icons\\linkedin.svg");
+}
+
+.github {
+    mask: url("\\assert\\icons\\github.svg");
+}
+
+.facebook {
+    mask: url("\\assert\\icons\\facebook.svg");
+}
+
+.gmail {
+    mask: url("\\assert\\icons\\envelope-at.svg");
+}
+
+.phone {
+    mask: url("\\assert\\icons\\telephone-plus.svg");
+}
+
+.copy {
+    mask: url("\\assert\\icons\\copy.svg");
+}
