@@ -52,17 +52,17 @@ class Constants {
         },
         {
             projectName: "eAttendance",
-            logoSrc: "assert/project_logo/study_resources.png",
+            logoSrc: /* "assert/project_logo/study_resources.png" */"",
             projectPurpose: "University Electronic Attendance Marker.",
             decription: "A mobile application that records student attendance during exams by scanning a unique QR code on their printed exam permit; it validates the student’s details against the required format and submits them to the university database, rejecting invalid entries.Implemented course-code authentication to ensure only valid exam courses are processed,Deployed and actively used by the university.",
             screenShotsURLs: [
-                "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153427.png",
+                /* "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153427.png",
                 "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153613.png",
                 "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153701.png",
                 "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153756.png",
                 "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153858.png",
                 "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_153927.png",
-                "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_154212.png"
+                "assert/project_logo/LBBS_result_compiler/Screenshot_20250708_154212.png" */
             ]
         }
     ]
