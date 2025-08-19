@@ -113,17 +113,24 @@ body {
 
 header {
   position: relative;
-  /* allows ::before to be positioned behind */
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
   color: #fff;
-  /* keep text fully opaque */
   padding: 1rem 2%;
   min-height: 100vh;
   text-align: left;
-  font-size: 1rem 1%;
+
+  /* Base size 1rem, allow best-effort shrink on small viewports */
+  font-size: clamp(0.55rem, calc(1rem - 0.4vw), 1rem);
+
+  /* force single line */
+  white-space: nowrap;
   overflow: hidden;
-  /* ensures ::before doesn’t bleed outside */
+  text-overflow: clip; /* no ellipsis because we intend to shrink */
   box-shadow: 0 3px 15px black;
 }
+
 
 /* Pseudo-element only holds and fades the background image */
 header::before {
@@ -150,6 +157,7 @@ nav {
   display: flex;
   margin: 1rem 0;
   text-align: end;
+  align-self: flex-end;
   gap: 1.1rem;
   align-content: end;
 }
@@ -157,7 +165,7 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition-duration: 400ms;
 }
 
